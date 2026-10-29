@@ -532,7 +532,7 @@ def main():
     parser.add_argument("--dir", "-d", type=str, default="data", help="base directory for recordings")
     parser.add_argument("--mac", "-a", type=str, default="D6:E8:E4:D4:C2:02", help="MAC address of MetaMotionRL")
     parser.add_argument("--mode", "-m", type=str, choices=["log", "stream"], default="log", help="data collection mode")
-    parser.add_argument("--timeout", "-t", type=int, default=18, help="timeout in seconds for log mode")
+    parser.add_argument("--timeout", "-t", type=int, default=20, help="timeout in seconds for log mode")
     parser.add_argument(
         "--skip-aborted",
         "-r",

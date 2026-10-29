@@ -44,7 +44,7 @@ options:
   --mode, -m {log,stream}
                         data collection mode (default: log)
   --timeout, -t TIMEOUT
-                        timeout in seconds for log mode (default: 18)
+                        timeout in seconds for log mode (default: 20)
   --skip-aborted, -r    skip downloading log data if the recording times out
                         and aborts (default: False)
   --bbox, -b BBOX       ultrasound bounding box on the primary screen as
@@ -155,7 +155,7 @@ If `record.py` or `clear.py` cannot connect to the MetaMotionRL device, follow t
 Scan Bluetooth devices until a *MetaWear* device appears, then exit (do *not* connect to the device).
 Follow the steps below:
 
-Settings > Bluetooth and devices > Add device > Bluetooth > Show all devices > *Wait for MetaWear to appear* > Cancel
+Settings > Bluetooth and devices > Add device > Bluetooth > Show all devices > *Wait for MetaWear to appear* > Cancel.
 
 ### Ubuntu
 
@@ -174,4 +174,4 @@ By default, EchoWave II freezes the scan after a certain amount of time.
 You can disable this feature for an uninterrupted long recording session.
 Follow the steps below:
 
-Menu > Tools > Options... > Scanning Control > Uncheck "Enable Auto Freeze"
+Menu > Tools > Options... > Scanning Control > Uncheck "Enable Auto Freeze".
